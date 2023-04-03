@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>어프어프</title>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+ 
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+  <!-- reset css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  
+  <!-- scss -->
+  <link rel="stylesheet" href="/main.scss" />
+
+  <!-- js -->
+  <script defer src="/main.js"></script>
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <div class="inner layout-table">
+      <a href="/" class="logo-area column-middle tc">
+        <h1>
+          <img src="/img/logo.gif" alt="어프어프">
+        </h1>
+      </a>
+      <div class="gnb-area column-middle">
+        <div class="util-menu-area">
+          <p class="fl">COPYRIGHT BY ⓒEARPEARP ALL RIGHTS RESERVED. </p>
+          <div class="util-menu fr">
+            <a href="javascript:void(0)">Q&A</a>
+            <a href="javascript:void(0)" class="util-menu__board">COMMUNITY</a>
+            <a href="javascript:void(0)" class="util-menu__log">LOGIN</a>
+            <a href="javascript:void(0)">JOIN</a>
+            <a href="javascript:void(0)">MYPAGE</a>
+            <a href="javascript:void(0)" class="util-menu__cart">CART()</a>
+          </div>
+        </div>
+        <ul id="gnb" class="gnb clear">
+          <li>
+            <a href="javascript:void(0)"> 
+              HARD CASE
+              <i class="ico-arrow"></i>
+            </a>
+            <ul class="gnb__depth">
+              <li>
+                <a href="javascript:void(0)">HARD CASE</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">CARD ZELHARD CASE</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">TOUGH/SLIDE CASE</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">MIRROR ZELHARD CASE</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Z FLIP 2/3/4 CASE</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Z FOLD 2/3/4 CASE</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">LIMITED CASE</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              JELLY CASE
+              <i class="ico-arrow"></i>
+            </a>
+            <ul class="gnb__depth">
+              <li>
+                <a href="">CLEAR JELLY CASE</a>
+              </li>
+              <li>
+                <a href="">COLOR JELLY CASE</a>
+              </li>
+              <li>
+                <a href="">CARD STORAGE CASE</a>
+              </li>
+              <li>
+                <a href="">EPOXY CASE</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              IPAD/MACBOOK CASE
+              <i class="ico-arrow"></i>
+            </a>
+            <ul class="gnb__depth">
+              <li>
+                <a href="">JELHARD CASE</a>
+              </li>
+              <li>
+                <a href="">COVER CASE</a>
+              </li>
+              <li>
+                <a href="">MACBOOK CASE</a>
+              </li>
+              <li>
+                <a href="">APPLE PENCIL CASE</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              AIRPODS/BUDS
+              <i class="ico-arrow"></i>
+            </a>
+            <ul class="gnb__depth">
+              <li>
+                <a href="">AIRPODS 1/2</a>
+              </li>
+              <li>
+                <a href="">AIRPODS 3</a>
+              </li>
+              <li>
+                <a href="">AIRPODS PRO</a>
+              </li>
+              <li>
+                <a href="">AIRPODS POUCH</a>
+              </li>
+              <li>
+                <a href="">BUDS/BUDS PLUS</a>
+              </li>
+              <li>
+                <a href="">BUDS 2/LIVE/PRO</a>
+              </li>
+              <li>
+                <a href="">LIMITED CASE</a>
+              </li>
+              <li>
+                <a href="">STICKER</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              SMART TOK
+              <i class="ico-arrow"></i>
+            </a>
+            <ul class="gnb__depth">
+              <li>
+                <a href="">SMART TOK</a>
+              </li>
+              <li>
+                <a href="">EARP TOKTOK</a>
+              </li>
+              <li>
+                <a href="">HEART TOK</a>
+              </li>
+              <li>
+                <a href="">HEART TOKTOK</a>
+              </li>
+              <li>
+                <a href="">JELLY TOK</a>
+              </li>
+              <li>
+                <a href="">ACRYL SMART TOK</a>
+              </li>
+              <li>
+                <a href="">MARBLE TOK</a>
+              </li>
+              <li>
+                <a href="">LIMITED TOK</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              DIGITAL
+              <i class="ico-arrow"></i>
+            </a>
+            <ul class="gnb__depth">
+              <li>
+                <a href="">WIRELESS CHARGER</a>
+              </li>
+              <li>
+                <a href="">MATCH STRAP</a>
+              </li>
+              <li>
+                <a href="">KEY RING</a>
+              </li>
+              <li>
+                <a href="">MOUSE PAD</a>
+              </li>
+              <li>
+                <a href="">BATTERY</a>
+              </li>
+              <li>
+                <a href="">CABLE PROTECTOR</a>
+              </li>
+              <li>
+                <a href="">PROTECTIVE FILM</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              STATIONERY
+              <i class="ico-arrow"></i>
+            </a>
+            <ul class="gnb__depth">
+              <li>
+                <a href="">NOTE</a>
+              </li>
+              <li>
+                <a href="">DIARY</a>
+              </li>
+              <li>
+                <a href="">MEMO PAD</a>
+              </li>
+              <li>
+                <a href="">PEN</a>
+              </li>
+              <li>
+                <a href="">POSTCARD</a>
+              </li>
+              <li>
+                <a href="">STICKER</a>
+              </li>
+              <li>
+                <a href="">MASKING TAPE</a>
+              </li>
+              <li>
+                <a href="">CALENDER</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              POUCH
+              <i class="ico-arrow"></i>
+            </a>
+            <ul class="gnb__depth">
+              <li>
+                <a href="">IPAD POUCH</a>
+              </li>
+              <li>
+                <a href="">NOTEBOOK POUCH</a>
+              </li>
+              <li>
+                <a href="">POUCH</a>
+              </li>
+              <li>
+                <a href="">STRING POUCH</a>
+              </li>
+              <li>
+                <a href="">PENCIL POUCH</a>
+              </li>
+              <li>
+                <a href="">BAG</a>
+              </li>
+              <li>
+                <a href="">WALLET</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              LIFE
+              <i class="ico-arrow"></i>
+            </a>
+            <ul class="gnb__depth">
+              <li>
+                <a href="">INTERIOR</a>
+              </li>
+              <li>
+                <a href="">KITCHEN</a>
+              </li>
+              <li>
+                <a href="">HOME FASHION</a>
+              </li>
+              <li>
+                <a href="">CAMPING</a>
+              </li>
+              <li>
+                <a href="">PET</a>
+              </li>
+              <li>
+                <a href="">GOODS</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              COLLABORATION
+              <i class="ico-arrow"></i>
+            </a>
+            <ul class="gnb__depth">
+              <li>
+                <a href="">TERRA</a>
+              </li>
+              <li>
+                <a href="">더페이스샵</a>
+              </li>
+              <li>
+                <a href="">BELLYGOM</a>
+              </li>
+              <li>
+                <a href="">PENGSOO</a>
+              </li>
+              <li>
+                <a href="">LG TWINS</a>
+              </li>
+              <li>
+                <a href="">새우깡</a>
+              </li>
+              <li>
+                <a href="">LOTTE WORLD</a>
+              </li>
+              <li>
+                <a href="">배홍동</a>
+              </li>
+              <li>
+                <a href="">KINIKINI</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              BLUE LABEL
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              GIFT
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- quick menu -->
+  <ul class="quick-menu-left tc">
+    <li>
+      <a href="javascript:void(0)" class="btn-total-menu">
+        <img src="/img/ico_menu.png" alt="전체 메뉴">
+      </a>
+    </li>
+    <li>
+      <a href="javascript:void(0)" class="btn-search">
+        <img src="/img/ico_search.png" alt="검색">
+      </a>
+      <div class="search__box hide">
+        <span class="ico-search tc">
+          <img src="/img/ico_search.png" alt="검색">
+        </span>
+        <form>
+          <!-- <input type="hidden">  -->
+          <div class="layout-searchheader">
+            <fieldset>
+              <legend>검색</legend>
+              <input type="text">
+              <!-- <input type="image" src="/img/btn_search.png" alt="검색" /> -->
+              <input type="submit" value="" />&nbsp;
+            </fieldset>
+          </div>
+        </form>
+      </div>
+    </li>
+    <li>
+      <a href="javascript:void(0)">
+        <img src="/img/ico_facebook.png" alt="페이스북" />
+      </a>
+    </li>
+    <li>
+      <a href="javascript:void(0)">
+        <img src="/img/ico_instagram.png" alt="인스타그램" />
+      </a>
+    </li>
+  </ul>
+
+  <!-- total menu -->
+  <div class="total-menu">
+    <div class="inner">
+      <span class="total__logo">
+        <img src="/img/total_logo.png" alt="어프어프">
+      </span>
+      <ul class="total__list">
+        <li>
+          <a href="javascript:void(0)" class="has-depth">
+            BLUE LABEL
+            <i class="ico-arrow"></i>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="has-depth">
+            GIFT
+            <i class="ico-arrow"></i>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="has-depth">
+            HARD CASE
+            <i class="ico-arrow"></i>
+          </a>
+          <ul class="depth-menu">
+            <li>
+              <a href="javascript:void(0)">HARD CASE</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">TOUGH/SLIDE CASE</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Z FLIP CASE</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="has-depth">
+            JELLY CASE
+            <i class="ico-arrow"></i>
+          </a>
+          <ul class="depth-menu">
+            <li>
+              <a href="javascript:void(0)">CLEAR JELLY CASE</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">COLOR JELLY CASE</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Z FLIP CASE</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="has-depth">
+            LIMITED LINE
+            <i class="ico-arrow"></i>
+          </a>
+          <ul class="depth-menu">
+            <li>
+              <a href="javascript:void(0)">CASE</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">AIR PODS</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="has-depth">
+            AIR PODS
+            <i class="ico-arrow"></i>
+          </a>
+          <ul class="depth-menu">
+            <li>
+              <a href="javascript:void(0)">AIR PODS</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">AIR PODS PRO</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">BUDS</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="has-depth">
+            SMART TOK
+            <i class="ico-arrow"></i>
+          </a>
+          <ul class="depth-menu">
+            <li>
+              <a href="javascript:void(0)">SMART TOK</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">EARP TOKTOK</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">HEART TOK</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">HEART TOKTOK</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="has-depth">
+            DIGITAL
+            <i class="ico-arrow"></i>
+          </a>
+          <ul class="depth-menu">
+            <li>
+              <a href="javascript:void(0)">MOUSE PAD</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">BATTERY</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">SMART REEL</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">CABLE PROTECTOR</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">AIR PODS STICKER</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">PROTECTIVE FILM</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="has-depth">
+            STATIONERY
+            <i class="ico-arrow"></i>
+          </a>
+          <ul class="depth-menu">
+            <li>
+              <a href="javascript:void(0)">STICKER</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">POSTCARD</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">MEMO PAD</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">MASKING TAPE</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">NOTE</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">CALENDAR</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="has-depth">
+            GOODS
+            <i class="ico-arrow"></i>
+          </a>
+          <ul class="depth-menu">
+            <li>
+              <a href="javascript:void(0)">KEY RING</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">BADGE</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">PEN</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">BOX TAPE</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">DOLL</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="has-depth">
+            BAG
+            <i class="ico-arrow"></i>
+          </a>
+          <ul class="depth-menu">
+            <li>
+              <a href="javascript:void(0)">SLEEVE POUCH</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">POUCH</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">ECO BAG</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">CROSS BAG</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">BUCKET BAG</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">SHOPPING BAG</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="has-depth">
+            LIFE
+            <i class="ico-arrow"></i>
+          </a>
+          <ul class="depth-menu">
+            <li>
+              <a href="javascript:void(0)">MIRROR</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">CUP</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">SOCKS</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="has-depth">
+            COMMUNITY
+            <i class="ico-arrow"></i>
+          </a>
+          <ul class="depth-menu">
+            <li>
+              <a href="javascript:void(0)">NOTICE</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Q&A</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">REVIEW</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">제휴문의</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="total__info">
+        <div class="sns-area">
+          <a href="javascript:void(0)">
+            <img src="/img/ico_insta_total.png" alt="인스타그램">
+          </a>
+          <a href="javascript:void(0)">
+            <img src="/img/ico_facebook_total.png" alt="페이스북">
+          </a>
+        </div>
+        <p>
+          CS CENTER 0700-5038-0989 / 070-4808-0850 / 032-662-1222
+          <br>
+          MONDAY -FRIDAY 13:00 - 15:00,
+          <br>
+          SAT/HOLIDAY OFF,
+          <br>
+          BREAK TIME 12:00-13:00
+          <br>
+        </p>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="btn-menu-close">
+      <img src="/img/btn_close_menu.png" alt="닫기">
+    </a>
+  </div>
+
+  <!-- scroll up -->
+  <div class="scroll-up">
+    <p>
+      <a href="javascript:void(0)" title="화면 최상단으로 위동하기">
+        <img src="/img/btn_top.png" alt="맨위로">
+      </a>
+    </p>
+  </div>
+
+  <!-- kakao channel -->
+  <div class="kakao-icon">
+    <p>
+      <a href="javascript:void(0)">
+        <img src="/img/kakaoq.png" alt="카카오채널">
+      </a>
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="contents">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/img/mainbn_1.gif" alt="배너1">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/mainbn_2.gif" alt="배너2">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/mainbn_3.gif" alt="배너3">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/mainbn_4.gif" alt="배너4">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/mainbn_5.gif" alt="배너5">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="product-list product-list-01">
+        <div class="product-list__title">
+          <h2>
+            <img src="/img/title_hardbest.png" alt="hard case best">
+          </h2>
+        </div>
+        <ul class="product-list__grid">
+          <li>
+            <div class="thumbnail"> 
+              <a href="javascript:void(0)">
+                <img src="/img/case_01.jpg" alt="">
+              </a>
+            </div>
+            <div class="description">
+              <strong class="name">
+                <a href="javascript:void(0)">
+                  <span>FAKE PURPLE RABBIT CHICHI(카드수납-젤하드)</span>
+                </a>
+              </strong>
+              <ul class="spec">
+                <li>
+                  <span class="sale">기간한정세일 03.02 ~ 04.06</span>
+                </li>
+                <li>
+                  <span class="cost-price">25,000WON</span>
+                </li>
+                <li>
+                  <span class="discounted-price">19,800WON</span>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail"> 
+              <a href="javascript:void(0)">
+                <img src="/img/case_02.jpg" alt="">
+              </a>
+            </div>
+            <div class="description">
+              <strong class="name">
+                <a href="javascript:void(0)">
+                  <span>FAKE PURPLE RABBIT CHICHI(카드수납-젤하드)</span>
+                </a>
+              </strong>
+              <ul class="spec">
+                <li>
+                  <span class="sale">기간한정세일 03.02 ~ 04.06</span>
+                </li>
+                <li>
+                  <span class="cost-price">25,000WON</span>
+                </li>
+                <li>
+                  <span class="discounted-price">19,800WON</span>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail"> 
+              <a href="javascript:void(0)">
+                <img src="/img/case_03.jpg" alt="">
+              </a>
+            </div>
+            <div class="description">
+              <strong class="name">
+                <a href="javascript:void(0)">
+                  <span>FAKE PURPLE RABBIT CHICHI(카드수납-젤하드)</span>
+                </a>
+              </strong>
+              <ul class="spec">
+                <li>
+                  <span class="sale">기간한정세일 03.02 ~ 04.06</span>
+                </li>
+                <li>
+                  <span class="cost-price">25,000WON</span>
+                </li>
+                <li>
+                  <span class="discounted-price">19,800WON</span>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail"> 
+              <a href="javascript:void(0)">
+                <img src="/img/case_04.jpg" alt="">
+              </a>
+            </div>
+            <div class="description">
+              <strong class="name">
+                <a href="javascript:void(0)">
+                  <span>FAKE PURPLE RABBIT CHICHI(카드수납-젤하드)</span>
+                </a>
+              </strong>
+              <ul class="spec">
+                <li>
+                  <span class="sale">기간한정세일 03.02 ~ 04.06</span>
+                </li>
+                <li>
+                  <span class="cost-price">25,000WON</span>
+                </li>
+                <li>
+                  <span class="discounted-price">19,800WON</span>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail"> 
+              <a href="javascript:void(0)">
+                <img src="/img/case_05.jpg" alt="">
+              </a>
+            </div>
+            <div class="description">
+              <strong class="name">
+                <a href="javascript:void(0)">
+                  <span>FAKE PURPLE RABBIT CHICHI(카드수납-젤하드)</span>
+                </a>
+              </strong>
+              <ul class="spec">
+                <li>
+                  <span class="sale">기간한정세일 03.02 ~ 04.06</span>
+                </li>
+                <li>
+                  <span class="cost-price">25,000WON</span>
+                </li>
+                <li>
+                  <span class="discounted-price">19,800WON</span>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail"> 
+              <a href="javascript:void(0)">
+                <img src="/img/case_06.jpg" alt="">
+              </a>
+            </div>
+            <div class="description">
+              <strong class="name">
+                <a href="javascript:void(0)">
+                  <span>FAKE PURPLE RABBIT CHICHI(카드수납-젤하드)</span>
+                </a>
+              </strong>
+              <ul class="spec">
+                <li>
+                  <span class="sale">기간한정세일 03.02 ~ 04.06</span>
+                </li>
+                <li>
+                  <span class="cost-price">25,000WON</span>
+                </li>
+                <li>
+                  <span class="discounted-price">19,800WON</span>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="product-list-02">
+        
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
