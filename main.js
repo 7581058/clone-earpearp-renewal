@@ -14,15 +14,19 @@ searchTopButton.addEventListener('click', function () {
 const totalMenuButton = document.querySelector('.btn-total-menu')
 const totalMenuCloseButton = document.querySelector('.btn-menu-close')
 const totalMenu = document.querySelector('.total-menu')
+const body = document.querySelector('body') 
+
 
 totalMenuButton.addEventListener('click', function () {
   totalMenu.style.transform = 'translateX(0%)'
   totalMenu.style.opacity = '1'
+  body.style.overflow = 'hidden'
 })
 
 totalMenuCloseButton.addEventListener('click', function () {
   totalMenu.style.transform = 'translateX(-100%)'
   totalMenu.style.opacity = '0'
+  body.style.overflow = 'auto'
 })
 
 // scroll up 
@@ -34,13 +38,13 @@ scrollupButton.addEventListener('click', function () {
 })
 
 // swiper
-new Swiper('.wrap .swiper', {
+new Swiper('.main-visual .swiper', {
   autoplay: {
     delay: 4000
   },
   loop: true,
   pagination: {
-    el: '.wrap .swiper .swiper-pagination',
+    el: '.main-visual .swiper .swiper-pagination',
     clickable: true
   }
 })
