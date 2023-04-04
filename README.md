@@ -1,4 +1,4 @@
-### <span style="background-color:#ffffff;">[사이트 레이아웃 클론 과제]</span>
+### [사이트 레이아웃 클론 과제]
 ---
 
 >제출 일자 : 23년 4월 5일   
