@@ -5,7 +5,7 @@ header {
   border: 2px solid #000;
   border-top: 0;
   border-bottom-width: 4px;
-  z-index: 50;
+  z-index: 8;
   .inner {
     .logo-area {
       width: 120px;
@@ -20,7 +20,7 @@ header {
     .gnb-area {
       font-size: 12px;
       font-weight: bold;
-      .util-menu-area {
+      .util-area {
         padding: 0 10px;
         height: 41px;
         line-height: 41px;
@@ -31,10 +31,10 @@ header {
             display: inline-block;
             margin-left: 10px;
           }
-          &__board {
+          .board {
             color: $color--blue;
           }
-          &__cart {
+          .cart {
             padding-left: 24px;
             background: url("/img/ico_cart.png") no-repeat 0 8px;
             color: $color--orange;
@@ -47,29 +47,29 @@ header {
           float: left;
           width: 16.666%;
           height: 40px;
-          box-sizing: border-box;
           line-height: 40px;
+          box-sizing: border-box;
           border-bottom: 2px solid #000;
           > a {
             display: block;
             padding: 0 10px;
-            text-decoration: none;
             font-family: 'Malgun Gothic', sans-serif;
+            text-decoration: none;
             .ico-arrow {
               display: inline-block;
               width: 13px;
               height: 8px;
               margin: -1px 0 0 2.5px;
-              vertical-align: middle;
               background: url(/img/ico_arrow_bottom_13x8_black.png) no-repeat 0 0;
+              vertical-align: middle;
             }
           }
           &:hover {
-            background-color: #00a0e2;
+            background-color: $color--blue;
             .ico-arrow {
               transform: rotate(180deg);
             }
-            .gnb__depth {
+            .gnb-depth {
               display: block;
             }
           }
@@ -79,7 +79,7 @@ header {
           & + li {
             border-left: 2px solid #000;
           }
-          .gnb__depth {
+          .gnb-depth {
             display: none;
             position: absolute;
             top: 100%;
@@ -88,7 +88,7 @@ header {
             border: 2px solid #000;
             border-top-width: 6px;
             background-color: #fff;
-            z-index: 11;
+            z-index: 5;
             > li {
               padding: 0 10px;
               height: 39px;
@@ -108,7 +108,5 @@ header {
         }
       }
     }
-    
   }
-
 }

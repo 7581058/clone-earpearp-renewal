@@ -1,7 +1,7 @@
 // search
 const searchUnderButton = document.querySelector('.btn-search')
 const searchTopButton = document.querySelector('.ico-search')
-const searchBox = document.querySelector('.search__box')
+const searchBox = document.querySelector('.search-box')
 
 searchUnderButton.addEventListener('click', function () { 
   searchBox.classList.remove('hide')
