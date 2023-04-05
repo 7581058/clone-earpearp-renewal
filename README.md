@@ -9,7 +9,7 @@
 ### :one: 원본 사이트 
 ---
 
-## [어프어프](https://earpearp.com/index.html)
+### [어프어프](https://earpearp.com/index.html)
 
 ![image](/screenshots/earpearp_full.png)
 
@@ -17,7 +17,7 @@
 
 ### :two: 클론 사이트 
 ---
-## [클론](https://beautiful-sunflower-e9dfb0.netlify.app/)
+### [클론](https://beautiful-sunflower-e9dfb0.netlify.app/)
 
 <br>
 
