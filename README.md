@@ -207,7 +207,6 @@
   <section>...</section> <!--메인 컨텐츠 : 슬라이드 & 상품목록 -->
 
   <footer>...</footer> <!--푸터 -->
-
 </body>
 ```
 
@@ -217,7 +216,6 @@
 
 ```html
 <body>
-
   <header>...</header> <!--전체메뉴 -->
 
   <main> 
@@ -228,6 +226,5 @@
   </main>
 
   <footer>...</footer> <!--푸터 -->
-
 </body>
 ```
