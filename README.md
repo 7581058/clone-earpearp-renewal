@@ -190,7 +190,7 @@
 
  <br>
 
-기존의 구조에서
+index.html 파일을 기존의 구조에서
 
 ```html
 <body>
